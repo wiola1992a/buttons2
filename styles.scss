@@ -1,0 +1,108 @@
+$test: #D0D0D0;
+$textcolor: white;
+$button1: #15be3d;
+$button2: #3691fe;
+$button3: #fec903;
+$naglowek: black;
+$border1: #fc2003;
+$border2: #1c03fc;
+$border3: #fc7303;
+$transition: transition-duration 1s;
+
+
+@mixin transform1  {
+    .bottom1 {
+        border-color:$border1;
+
+    }
+}
+
+@mixin transform2  {
+    .bottom2 {
+        border-color:$border2;
+    }
+}
+
+@mixin transform3 {
+    .bottom3 {
+        border-color:$border3;
+    }
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-color: $test;
+    width: 100%;
+    text-align: center;
+    color: $textcolor;
+
+    .main {
+        h1 {
+            color: $naglowek;
+            font-size: 6rem;
+            font-family: 'Roboto', sans-serif;
+            letter-spacing: 4px;
+            margin-top: 32px;
+            margin-right: 7px;
+
+            }
+
+        .container {
+                margin-right: 50px;
+
+            .button1 {
+                background-color: $button1;
+                border-radius: 2rem;
+                margin-right: 28px;
+                color: $textcolor;
+                font-size: 3rem;
+                padding: 6px 47px;
+                border: none;
+
+
+                    &:hover {
+                        border-color: $border1;
+                        @include transform1;
+                    }
+            }
+
+            .button2 {
+                background-color: $button2;
+                border-radius: 2rem;
+                color: $textcolor;
+                font-size: 3rem;
+                padding: 6px 60px;
+                border: none;
+
+                    &:hover {
+                        border-color: $border2;
+                        @include transform2;
+                    }
+            }
+        }
+
+        .butt {
+            margin-right: 50px;
+
+            .button3 {
+                background-color: $button3;
+                border-radius: 2rem;
+                color: $textcolor;
+                padding: 6px 45px;
+                margin-top: 30px;
+                font-size: 3rem;
+                border: none;
+
+
+                    &:hover {
+                        border-color: $border2;
+                        @include transform3;
+                    }
+            }
+        }
+    }
+
+}
