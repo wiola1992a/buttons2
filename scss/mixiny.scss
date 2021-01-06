@@ -1,0 +1,18 @@
+@mixin transform1  {
+    .bottom1 {
+        border-color:$border1;
+
+    }
+}
+
+@mixin transform2  {
+    .bottom2 {
+        border-color:$border2;
+    }
+}
+
+@mixin transform3 {
+    .bottom3 {
+        border-color:$border3;
+    }
+}
