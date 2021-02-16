@@ -11,48 +11,38 @@ body {
     text-align: center;
     color: $textcolor;
 
-    .main {
-        h1 {
-            color: $naglowek;
-            font-size: 6rem;
-            font-family: 'Roboto', sans-serif;
-            letter-spacing: 4px;
-            margin-top: 32px;
-            margin-right: 7px;
+.main {
+     h1 {
+        color: $naglowek;
+        font-size: 6rem;
+        font-family: 'Roboto', sans-serif;
+        letter-spacing: 4px;
+        margin-top: 32px;
+        margin-right: 7px;
 
+    }
+
+    .container {
+         margin-right: 50px;
+
+         .button1 {
+            @extend %color;
+            @include BgPad($button1, $paddingRL: 47px);
+            margin-right: 28px;
+
+                &:hover {
+                    border-color: $border1;
+                }
             }
 
-        .container {
-                margin-right: 50px;
-
-            .button1 {
-                background-color: $button1;
-                border-radius: 2rem;
-                margin-right: 28px;
-                color: $textcolor;
-                font-size: 3rem;
-                padding: 6px 47px;
-                border: none;
-
-
-                    &:hover {
-                        border-color: $border1;
-                        @include transform1;
-                    }
-            }
-
-            .button2 {
-                background-color: $button2;
-                border-radius: 2rem;
-                color: $textcolor;
-                font-size: 3rem;
-                padding: 6px 60px;
-                border: none;
-
-                    &:hover {
-                        border-color: $border2;
-                        @include transform2;
-                    }
+        .button2 {
+            @extend %color;
+            @include BgPad($button2, $paddingRL: 60px);
+            padding: 6px 60px;
+            
+                &:hover {
+                    border-color: $border2;
+                 }
             }
         }
 
@@ -60,21 +50,16 @@ body {
             margin-right: 50px;
 
             .button3 {
-                background-color: $button3;
-                border-radius: 2rem;
-                color: $textcolor;
+               @extend %color;
+                @include BgPad($button3, $paddingRL: 45px);
                 padding: 6px 45px;
                 margin-top: 30px;
-                font-size: 3rem;
-                border: none;
-
-
+    
                     &:hover {
                         border-color: $border2;
-                        @include transform3;
                     }
             }
         }
     }
 
-}
+};
