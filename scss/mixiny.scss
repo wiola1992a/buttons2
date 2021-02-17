@@ -12,8 +12,8 @@
     padding: $paddingTB $paddingRL;
 }
 
-@mixin hover($borderCol: white, $borderStyle: solid) {
+@mixin hoverr($borderCol: white) {
+    
     background-color: invert($borderCol);
     border-color: $borderCol;
-    border-style: solid;
 }
