@@ -7,7 +7,6 @@
 }
 
 @mixin BgPad($background: white, $paddingTB: 6px, $paddingRL: 45px) {
-
     background-color: $background;
     padding: $paddingTB $paddingRL;
 }
@@ -15,4 +14,7 @@
 @mixin hoverr($borderCol: white) {
     background-color: $borderCol;
     border-color: invert($borderCol);
+    border-style: solid;
+    cursor: pointer;
+    transition: $transition;
 }

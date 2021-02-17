@@ -26,8 +26,6 @@ h1 {
     margin-right: 34px;
          &:hover {
              @include hoverr($borderCol1);
-             border-style: solid;
-             cursor: pointer;
         }
 }
 
@@ -37,8 +35,6 @@ h1 {
             
         &:hover {
             @include hoverr($borderCol2);
-            border-style: solid;
-            cursor: pointer;
          }
 }
         
@@ -49,8 +45,6 @@ h1 {
     
          &:hover {
             @include hoverr($borderCol3);
-            border-style: solid;
-            cursor: pointer;
          }
 }
 

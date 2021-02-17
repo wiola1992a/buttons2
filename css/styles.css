@@ -26,10 +26,11 @@ h1 {
   padding: 6px 38px;
   margin-right: 34px; }
   .button1:hover {
-    background-color: #f11414;
-    border-color: #0eebeb;
+    background-color: #e60bfa;
+    border-color: #19f405;
     border-style: solid;
-    cursor: pointer; }
+    cursor: pointer;
+    transition: transition-duration 2s; }
 
 .button2 {
   background-color: #3691fe;
@@ -38,7 +39,8 @@ h1 {
     background-color: #FF8E01;
     border-color: #0071fe;
     border-style: solid;
-    cursor: pointer; }
+    cursor: pointer;
+    transition: transition-duration 2s; }
 
 .button3 {
   background-color: #fec903;
@@ -48,4 +50,5 @@ h1 {
     background-color: #01ACFF;
     border-color: #fe5300;
     border-style: solid;
-    cursor: pointer; }
+    cursor: pointer;
+    transition: transition-duration 2s; }
