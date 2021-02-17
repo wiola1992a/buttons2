@@ -13,7 +13,6 @@
 }
 
 @mixin hoverr($borderCol: white) {
-    
-    background-color: invert($borderCol);
-    border-color: $borderCol;
+    background-color: $borderCol;
+    border-color: invert($borderCol);
 }

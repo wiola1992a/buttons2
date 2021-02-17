@@ -25,8 +25,9 @@ h1 {
      @include BgPad($button1, $paddingRL: 38px);
     margin-right: 34px;
          &:hover {
-             @include hoverr($button1);
+             @include hoverr($borderCol1);
              border-style: solid;
+             cursor: pointer;
         }
 }
 
@@ -35,8 +36,9 @@ h1 {
     @include BgPad($button2, $paddingRL: 50px);
             
         &:hover {
-            @include hoverr($button2);
+            @include hoverr($borderCol2);
             border-style: solid;
+            cursor: pointer;
          }
 }
         
@@ -46,9 +48,10 @@ h1 {
     margin-top: 27px;
     
          &:hover {
-            @include hoverr($button3);
+            @include hoverr($borderCol3);
             border-style: solid;
-        }
+            cursor: pointer;
+         }
 }
 
 

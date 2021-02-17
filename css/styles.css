@@ -26,23 +26,26 @@ h1 {
   padding: 6px 38px;
   margin-right: 34px; }
   .button1:hover {
-    background-color: #ea41c2;
-    border-color: #15be3d;
-    border-style: solid; }
+    background-color: #f11414;
+    border-color: #0eebeb;
+    border-style: solid;
+    cursor: pointer; }
 
 .button2 {
   background-color: #3691fe;
   padding: 6px 50px; }
   .button2:hover {
-    background-color: #c96e01;
-    border-color: #3691fe;
-    border-style: solid; }
+    background-color: #FF8E01;
+    border-color: #0071fe;
+    border-style: solid;
+    cursor: pointer; }
 
 .button3 {
   background-color: #fec903;
   padding: 6px 35px;
   margin-top: 27px; }
   .button3:hover {
-    background-color: #0136fc;
-    border-color: #fec903;
-    border-style: solid; }
+    background-color: #01ACFF;
+    border-color: #fe5300;
+    border-style: solid;
+    cursor: pointer; }
