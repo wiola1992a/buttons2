@@ -1,8 +1,8 @@
 %color {
-
+    letter-spacing: 1px;
     border-radius: 2rem;
     color: white;
-    font-size: 3rem;
+    font-size: 3.1rem;
     border: none;
 }
 
@@ -10,4 +10,10 @@
 
     background-color: $background;
     padding: $paddingTB $paddingRL;
+}
+
+@mixin hover($borderCol: white, $borderStyle: solid) {
+    background-color: invert($borderCol);
+    border-color: $borderCol;
+    border-style: solid;
 }

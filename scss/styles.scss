@@ -7,59 +7,46 @@ html {
 
 body {
     background-color: $test;
-    width: 100%;
+    width: 96.95%;
     text-align: center;
     color: $textcolor;
+}
 
-.main {
-     h1 {
-        color: $naglowek;
-        font-size: 6rem;
-        font-family: 'Roboto', sans-serif;
-        letter-spacing: 4px;
-        margin-top: 32px;
-        margin-right: 7px;
+h1 {
+    color: $naglowek;
+    font: 700 6rem 'Nunito Sans', sans-serif;
+    letter-spacing: 4px;
+    margin-top: 23px;
+    margin-left: 33px;
+}
 
-    }
+.button1 {
+     @extend %color;
+     @include BgPad($button1, $paddingRL: 38px);
+    margin-right: 34px;
+         &:hover {
+             @include hover($borderCol:$button1);
+        }
+}
 
-    .container {
-         margin-right: 50px;
-
-         .button1 {
-            @extend %color;
-            @include BgPad($button1, $paddingRL: 47px);
-            margin-right: 28px;
-
-                &:hover {
-                    border-color: $border1;
-                }
-            }
-
-        .button2 {
-            @extend %color;
-            @include BgPad($button2, $paddingRL: 60px);
-            padding: 6px 60px;
+.button2 {
+    @extend %color;
+    @include BgPad($button2, $paddingRL: 50px);
             
-                &:hover {
-                    border-color: $border2;
-                 }
-            }
-        }
-
-        .butt {
-            margin-right: 50px;
-
-            .button3 {
-               @extend %color;
-                @include BgPad($button3, $paddingRL: 45px);
-                padding: 6px 45px;
-                margin-top: 30px;
+        &:hover {
+            @include hover($borderCol:$button2);
+         }
+}
+        
+.button3 {
+    @extend %color;
+    @include BgPad($button3, $paddingRL: 35px);
+    margin-top: 27px;
     
-                    &:hover {
-                        border-color: $border2;
-                    }
-            }
+         &:hover {
+            @include hover($borderCol:$button3);
         }
-    }
+}
 
-};
+
+
