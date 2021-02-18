@@ -1,12 +1,12 @@
 %color {
     color: white;
-    letter-spacing: 1px;
+    letter-spacing: 0.1rem;
     font-size: 3.1rem;
     border: 1px  solid #D0D0D0;
     border-radius: 2rem;
 }
 
-@mixin BgPad($background: white, $paddingTB: 6px, $paddingRL: 45px) {
+@mixin BgPad($background: white, $paddingTB: 0.6rem, $paddingRL: 4.5rem) {
     background-color: $background;
     padding: $paddingTB $paddingRL;
 }

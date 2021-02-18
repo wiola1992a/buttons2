@@ -1,6 +1,6 @@
 .button1, .button2, .button3 {
   color: white;
-  letter-spacing: 1px;
+  letter-spacing: 0.1rem;
   font-size: 3.1rem;
   border: 1px  solid #D0D0D0;
   border-radius: 2rem; }
@@ -16,29 +16,29 @@ body {
 h1 {
   color: black;
   font: 700 6rem 'Roboto', sans-serif;
-  letter-spacing: 4px;
-  margin-top: 28px;
-  margin-left: 35px; }
+  letter-spacing: 0.4rem;
+  margin-top: 2.8rem;
+  margin-left: 3.5rem; }
 
 .button1 {
   background-color: #15be3d;
-  padding: 6px 38px;
-  margin-right: 34px; }
+  padding: 0.6rem 3.8rem;
+  margin-right: 3.4rem; }
   .button1:hover {
     background-color: #e60bfa;
     border: 1px solid #19f405; }
 
 .button2 {
   background-color: #3691fe;
-  padding: 6px 50px; }
+  padding: 0.6rem 5rem; }
   .button2:hover {
     background-color: #FF8E01;
     border: 1px solid #0071fe; }
 
 .button3 {
   background-color: #fec903;
-  padding: 6px 35px;
-  margin-top: 27px; }
+  padding: 0.6rem 3.5rem;
+  margin-top: 2.7rem; }
   .button3:hover {
     background-color: #01ACFF;
     border: 1px solid #fe5300; }
