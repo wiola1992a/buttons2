@@ -26,14 +26,16 @@ h1 {
   margin-right: 3.4rem; }
   .button1:hover {
     background-color: #e60bfa;
-    border: 1px solid #19f405; }
+    border: 1px solid #19f405;
+    cursor: pointer; }
 
 .button2 {
   background-color: #3691fe;
   padding: 0.6rem 5rem; }
   .button2:hover {
     background-color: #FF8E01;
-    border: 1px solid #0071fe; }
+    border: 1px solid #0071fe;
+    cursor: pointer; }
 
 .button3 {
   background-color: #fec903;
@@ -41,4 +43,5 @@ h1 {
   margin-top: 2.7rem; }
   .button3:hover {
     background-color: #01ACFF;
-    border: 1px solid #fe5300; }
+    border: 1px solid #fe5300;
+    cursor: pointer; }

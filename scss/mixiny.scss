@@ -14,4 +14,5 @@
 @mixin hoverr($borderCol: white) {
     background-color: $borderCol;
     border: 1px  solid invert($borderCol);
+    cursor: pointer;
 }
