@@ -1,9 +1,9 @@
 .button1, .button2, .button3 {
-  letter-spacing: 1px;
-  border-radius: 2rem;
   color: white;
+  letter-spacing: 1px;
   font-size: 3.1rem;
-  border: none; }
+  border: 1px  solid #D0D0D0;
+  border-radius: 2rem; }
 
 html {
   font-size: 62.5%; }
@@ -11,8 +11,7 @@ html {
 body {
   background-color: #D0D0D0;
   width: 96.95%;
-  text-align: center;
-  color: white; }
+  text-align: center; }
 
 h1 {
   color: black;
@@ -27,20 +26,14 @@ h1 {
   margin-right: 34px; }
   .button1:hover {
     background-color: #e60bfa;
-    border-color: #19f405;
-    border-style: solid;
-    cursor: pointer;
-    transition: transition-duration 2s; }
+    border: 1px solid #19f405; }
 
 .button2 {
   background-color: #3691fe;
   padding: 6px 50px; }
   .button2:hover {
     background-color: #FF8E01;
-    border-color: #0071fe;
-    border-style: solid;
-    cursor: pointer;
-    transition: transition-duration 2s; }
+    border: 1px solid #0071fe; }
 
 .button3 {
   background-color: #fec903;
@@ -48,7 +41,4 @@ h1 {
   margin-top: 27px; }
   .button3:hover {
     background-color: #01ACFF;
-    border-color: #fe5300;
-    border-style: solid;
-    cursor: pointer;
-    transition: transition-duration 2s; }
+    border: 1px solid #fe5300; }

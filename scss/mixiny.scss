@@ -1,9 +1,9 @@
 %color {
-    letter-spacing: 1px;
-    border-radius: 2rem;
     color: white;
+    letter-spacing: 1px;
     font-size: 3.1rem;
-    border: none;
+    border: 1px  solid #D0D0D0;
+    border-radius: 2rem;
 }
 
 @mixin BgPad($background: white, $paddingTB: 6px, $paddingRL: 45px) {
@@ -13,8 +13,5 @@
 
 @mixin hoverr($borderCol: white) {
     background-color: $borderCol;
-    border-color: invert($borderCol);
-    border-style: solid;
-    cursor: pointer;
-    transition: $transition;
+    border: 1px  solid invert($borderCol);
 }
