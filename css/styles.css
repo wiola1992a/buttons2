@@ -16,10 +16,10 @@ body {
 
 h1 {
   color: black;
-  font: 700 6rem 'Nunito Sans', sans-serif;
+  font: 700 6rem 'Roboto', sans-serif;
   letter-spacing: 4px;
-  margin-top: 23px;
-  margin-left: 33px; }
+  margin-top: 28px;
+  margin-left: 35px; }
 
 .button1 {
   background-color: #15be3d;
